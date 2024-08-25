@@ -1,0 +1,100 @@
+.hero-page{
+    height: fit-content;
+}
+
+.con-about{
+    width: 94%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2vw;
+}
+
+.con-left{
+    width: 50%;
+    height: fit-content;
+}
+
+.con-left h1{
+    text-transform: uppercase;
+    font-size: 7.1vw;
+    font-family: neuhassmediu;
+    font-weight: 800;
+    text-align: left;
+    line-height: 1;
+    letter-spacing: -2.8px;
+}
+
+.image{
+    width: 35vw;
+    height: 35vw;
+    margin: 2vw 0;
+    border-radius: 50%;
+    background-image: url(images/Sundown-Map.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.con-left a{
+    transform: translateY(10%);
+    line-height: 1;
+    font-size: 1.7vw;
+    font-family: neuhassmediu;
+    text-decoration: none;
+    color: black;
+}
+
+.hero-page .con-right{
+    width: 37%;
+    text-align: right;
+}
+
+.con-right input{
+    width: 80%;
+    color: rgb(11, 11, 11);
+    margin-top: 2.5vw;
+    font-size: 1.3vw;
+    padding: 0.5vw 1vw 0 1vw;
+    border-radius: 8px;
+    border: solid 1px rgb(159, 156, 156);
+    padding-bottom: 0.4vw;
+}
+.con-right input:focus{
+    color: rgb(81, 79, 79);
+    font-size: 1.3vw;
+    outline: none;
+}
+
+
+::placeholder{
+    color: rgb(113, 110, 110);
+}
+.con-right textarea{
+    width: 80%;
+    color: rgb(11, 11, 11);
+    font-size: 1.3vw;
+    margin-top: 2vw;
+    border-radius: 8px;
+    background: transparent;
+    padding: 0.5vw 1vw 0 1vw;
+}
+.con-right textarea:focus{
+    color: rgb(81, 79, 79);
+    font-size: 1.3vw;
+    outline: none;
+}
+
+#submit{
+    width: 22%;
+    margin-top: 2vw;
+    color: black;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+}
+#submit:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
